@@ -8,5 +8,6 @@
 - [ ] Have you built your formula locally with `brew install --build-from-source <formula>`, where `<formula>` is the name of the formula you're submitting?
 - [ ] Is your test running fine `brew test <formula>`, where `<formula>` is the name of the formula you're submitting?
 - [ ] Does your build pass `brew audit --tap cisco-open/homebrew-tap --strict <formula>` (after doing `brew install --build-from-source <formula>`)? If this is a new formula, does it pass `brew audit --tap cisco-open/homebrew-tap --new <formula>`?
+- [ ] Do your files include a license header?
 
 -----
