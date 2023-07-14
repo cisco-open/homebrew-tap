@@ -16,7 +16,7 @@ Thank you for contributing!
 - Create a formula with `brew create --tap cisco-open/tap --set-name foo https://github.com/cisco-open/<project>/archive/refs/tags/<thing>.tar.gz`
 - read the [Formula Cookbook](https://docs.brew.sh/Formula-Cookbook) and make edits
 - Review [the checklist for PRs](https://github.com/cisco-open/homebrew-tap/blob/main/.github/PULL_REQUEST_TEMPLATE.md) and make sure that you can check all of them
-- `git commit` with message formatted `foo 2.3.4 (new formula)`
+- `git commit`  with a message that contains the name of the formula and the version (e.g. `foo 2.3.4`)
 - open a pull request and fix any failing tests
 
 ## Update or fix an existing formulae
@@ -25,7 +25,7 @@ Thank you for contributing!
 - Retrieve this repository via git using `brew tap cisco-open/tap git@github.com:cisco-open/homebrew-tap.git`
 - Make edits to fix the existing formulae
 - Review [the checklist for PRs](https://github.com/cisco-open/homebrew-tap/blob/main/.github/PULL_REQUEST_TEMPLATE.md) and make sure that you can check all of them
-- run `git commit` with message formatted `foo <insert new version number>` or `foo: <insert details>`
+- run `git commit` with message that contains the name of the formula and the (updated) version (e.g. `foo <insert new version number>` or `foo 2.3.4: <insert details>`)
 - open a pull request as described in the introduction linked to above, wait for the automated test results, and fix any failing tests
 
 ## Acknowledgement
