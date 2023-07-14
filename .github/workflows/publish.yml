@@ -8,7 +8,10 @@ jobs:
     if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
     runs-on: ubuntu-22.04
     permissions:
+      # The following permissions are required to publish the bottles (packages: write) 
+      # and to push the commits (contents: write)
       packages: write
+      contents: write
     steps:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
