@@ -5,12 +5,12 @@
 # the following users/teams will be requested for
 # review when someone opens a pull request.
 #
-* @cisco-open/homebrew-admins
+* @cisco-open/homebrew-tap-admins
 
 # Enforces admin protections for repo configuration via probot settings app.
 # ref: https://github.com/probot/settings#security-implications
-.github/settings.yml @cisco-open/homebrew-admins
+.github/settings.yml @cisco-open/homebrew-tap-admins
 
 # Formula admins
-/Formula/ @cisco-open/homebrew-admins
+/Formula/ @cisco-open/homebrew-tap-admins
 /Formula/fsoc* @cisco-open/fsoc-admins
