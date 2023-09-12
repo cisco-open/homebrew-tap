@@ -13,3 +13,4 @@
 
 # Formula admins
 /Formula/ @cisco-open/homebrew-tap-admins
+/Formula/fsoc* @cisco-open/fsoc-admins

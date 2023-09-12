@@ -12,7 +12,7 @@ To learn more about Homebrew, check [Homebrew's documentation](https://docs.brew
 
 ## Setup
 
-Homebrew packages are called formualae. You can install individual formualae by running the following command:
+Homebrew packages are called formulae. You can install individual formulae by running the following command:
 
 ```shell
 brew install cisco-open/tap/<formula>
@@ -29,6 +29,10 @@ Then you can install a formula by running `brew install <formula>`.
 ## Available Packages
 
 The following packages are published through the Cisco Open Homebrew Tap:
+
+| Repository | Formula | Description |
+| ---------- | ------- | ----------- |
+| [fsoc](https://github.com/cisco-open/fsoc) | [Formula/fsoc.rb](Formula/fsoc.rb) | fsoc - Cisco FSO Platform Developer's Control Tool | 
 
 ## Contributing
 
