@@ -5,13 +5,13 @@
 class Fsoc < Formula
   desc "Cisco Observability Platform Developer's Control Tool"
   homepage "https://github.com/cisco-open/fsoc"
-  version "0.64.0"
+  version "0.65.0-pre1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cisco-open/fsoc/releases/download/v0.64.0/fsoc-darwin-arm64.tar.gz"
-      sha256 "93bbd3eea0f6655de9ac9c2a558a1195c4343bf52cd461eebbcaa6607d512045"
+      url "https://github.com/cisco-open/fsoc/releases/download/v0.65.0-pre1/fsoc-darwin-arm64.tar.gz"
+      sha256 "2b6e2f6bfac332fc7516b161c8958ce0244c0066f2007c1991bd2dbfd7a7341d"
 
       def install
         Dir.glob("fsoc-*-*") do |f|
@@ -20,8 +20,8 @@ class Fsoc < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cisco-open/fsoc/releases/download/v0.64.0/fsoc-darwin-amd64.tar.gz"
-      sha256 "d883d77f47fbbd526c62c5f1d3b7e488b2394bfdf7265b670c479008f8b2b0ba"
+      url "https://github.com/cisco-open/fsoc/releases/download/v0.65.0-pre1/fsoc-darwin-amd64.tar.gz"
+      sha256 "94b36dbbe7c19b1001e1a8d87b7a8bc78c495893fea03d7f710655f5c2fa644a"
 
       def install
         Dir.glob("fsoc-*-*") do |f|
@@ -33,8 +33,8 @@ class Fsoc < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cisco-open/fsoc/releases/download/v0.64.0/fsoc-linux-arm64.tar.gz"
-      sha256 "3428193472cb5db4b50894538c9992f78cd2af79d6c2afe827f56e65ec57365f"
+      url "https://github.com/cisco-open/fsoc/releases/download/v0.65.0-pre1/fsoc-linux-arm64.tar.gz"
+      sha256 "8184216e453b91c17992dc84b5d421575564f6ce82bb221dd49c510bf218ece3"
 
       def install
         Dir.glob("fsoc-*-*") do |f|
@@ -43,8 +43,8 @@ class Fsoc < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cisco-open/fsoc/releases/download/v0.64.0/fsoc-linux-amd64.tar.gz"
-      sha256 "0eda04511789f15fa8d8557f61dd91d733f4d77f3892b62d5d038dc862cb1bd8"
+      url "https://github.com/cisco-open/fsoc/releases/download/v0.65.0-pre1/fsoc-linux-amd64.tar.gz"
+      sha256 "642e526166b1a1749ae39c8f48e1c7b916f5490701b71635b2862615cd4f1a3d"
 
       def install
         Dir.glob("fsoc-*-*") do |f|
